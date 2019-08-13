@@ -33,7 +33,7 @@ str(s)
 # probability distribution functions usually have 4 functions associated with
 # them, The functions are prefixed with a
 # d for density
-# r for ransom number generation
+# r for random number generation
 # p for cummulative distribution
 # q for quantile function
 
@@ -46,6 +46,7 @@ rnorm(5)
 
 # Generating Random Numbers From a Linear Model
 set.seed(20)
+
 x <- rnorm(100)
 e <- rnorm(100, 0, 2)
 y <- 0.5 + 2 * x + e
